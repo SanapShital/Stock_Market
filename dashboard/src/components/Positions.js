@@ -2,19 +2,19 @@ import React,{ useState, useEffect } from "react";
 
 import axios from "axios";
 
-//import { positions } from "../data/data";
+
 
 const Positions = () => {
   const [allPositions, setAllPositions] = useState([]);
 
   useEffect(() => {
     axios.get("https://humble-orbit-x59r6x5xxvr2v7w9-3002.app.github.dev/allPositions").then((res) => {
-      // console.log(res.data);
+      
       setAllPositions(res.data);
     });
   }, []);
 
-//const Positions = () => {
+
   return (
     <>
       <h3 className="title">Positions ({allPositions.length})</h3>
