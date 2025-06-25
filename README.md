@@ -7,38 +7,51 @@ It supports **live-like buy orders, holdings tracking, and watchlist management*
 
 ---
 
-## 🚀 Live Demo
-
-👉 [Click here to view the live app](https://your-netlify-link.netlify.app)
+### 🚀 Live Demo  
+👉 **[Project Live on Netlify](https://symphonious-manatee-76c4db.netlify.app/)**
 
 ---
 
-🚀 Tech Stack & Tools Used
-🖥️ Frontend
-Languages & Frameworks: HTML5, CSS3, JavaScript (ES6+), React.js
+## 💻 Tech Stack & Tools Used
 
-Styling Libraries: Bootstrap, Material UI
+### 🎨 Frontend
+- **Languages & Frameworks**: **HTML5**, **CSS3**, **JavaScript**, **React.js**
+- **Styling Libraries**: **Bootstrap**, **Material UI**
 
-🛠️ Backend
-Runtime & Framework: Node.js, Express.js
+---
 
-🗃️ Database
-Cloud Database: MongoDB Atlas
+### 🛠️ Backend
+- **Node.js**
+- **Express.js**
 
-🧪 Testing
-Testing Framework: Jest (for backend unit testing)
+---
 
-🚀 Deployment
-Frontend Hosting: Netlify
+### 🗃️ Database
+- **MongoDB Atlas**
 
-🔧 Development & Tools
-Version Control: Git & GitHub
+---
 
-IDE: GitHub Codespaces / VS Code
+### 🧪 Testing
+- **Jest** (Unit Testing for APIs)
 
-Browser for Testing: Google Chrome
+---
 
-Support: ChatGPT was actively used for resolving bugs, errors, and deployment steps
+### 🚀 Deployment
+- **Netlify** (Dashboard Deployment)
+
+---
+
+### 🛠️ Tools & Version Control
+- **Git**
+- **GitHub**
+- **VS Code / GitHub Codespaces**
+- **Google Chrome**
+
+---
+
+### 🤖 Assistance
+- Project development and bug resolution was done with the help of **ChatGPT**.
+
 
 
 ---
@@ -58,23 +71,33 @@ Support: ChatGPT was actively used for resolving bugs, errors, and deployment st
 ## 🧰 How to Run Locally
 
 ```bash
-git clone https://github.com/SanapShital/Stock_Market.git
+git clone https://github.com/SanapShital/TradeVista.git
 
-# Run frontend
+
+---
+
+## 🧑‍💻 Getting Started
+
+### ▶️ Frontend
+
+cd frontend
+npm install
+npm start
+
+### ▶️ Dashboard
 cd dashboard
 npm install
 npm start
 
-# (Optional) Run backend server
-cd ../backend
+### ▶️ Backend
+cd backend
 npm install
 node index.js
 
+
 🗂️ Project Structure
-bash
-Copy
-Edit
-Zerodha_Project/
+
+TradeVista/
 ├── backend/         # Node.js API & MongoDB logic
 ├── dashboard/       # React frontend
 ├── frontend/        # (Optional or legacy UI)
@@ -82,28 +105,19 @@ Zerodha_Project/
 
 🧪 Testing
 Unit testing done for API endpoints to ensure:
-
 Valid data creation
-
 Database updates
-
 Error handling
-
 Easy to integrate with testing libraries like Jest/Postman
 
 📚 Learning Outcomes
 This project helped me enhance:
 
 React component architecture & hooks
-
 Full-stack application logic with Express.js
-
 MongoDB Atlas usage for cloud database
-
 REST API creation & integration
-
 Debugging Netlify CI/CD pipeline
-
 Real-time UI interactivity
 
 📸 Screenshots
@@ -112,4 +126,5 @@ Real-time UI interactivity
 TradeVerse is more than just a project — it’s a reflection of consistent effort, full-stack problem solving, and my passion for user-friendly interfaces.
 From sleepless nights to resolving complex build errors — every step taught me something new.
 
-
+📖 Project Insight
+TradeVerse is more than just a project — it’s a reflection of consistent effort, full-stack problem solving, and my passion for user-friendly interfaces. From sleepless nights to resolving complex build errors — every step taught me something new.
