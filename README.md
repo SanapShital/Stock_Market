@@ -94,6 +94,7 @@ cd backend
 npm install
 node index.js
 
+---
 
 🗂️ Project Structure
 
@@ -102,6 +103,7 @@ TradeVista/
 ├── dashboard/       # React frontend
 ├── frontend/        # (Optional or legacy UI)
 
+---
 
 🧪 Testing
 Unit testing done for API endpoints to ensure:
@@ -109,6 +111,8 @@ Valid data creation
 Database updates
 Error handling
 Easy to integrate with testing libraries like Jest/Postman
+
+---
 
 📚 Learning Outcomes
 This project helped me enhance:
@@ -120,11 +124,17 @@ REST API creation & integration
 Debugging Netlify CI/CD pipeline
 Real-time UI interactivity
 
+---
 📸 Screenshots
+
+---
 
 💬 A Word from the Developer
 TradeVerse is more than just a project — it’s a reflection of consistent effort, full-stack problem solving, and my passion for user-friendly interfaces.
 From sleepless nights to resolving complex build errors — every step taught me something new.
 
+---
+
 📖 Project Insight
 TradeVerse is more than just a project — it’s a reflection of consistent effort, full-stack problem solving, and my passion for user-friendly interfaces. From sleepless nights to resolving complex build errors — every step taught me something new.
+---
